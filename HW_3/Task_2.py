@@ -28,6 +28,6 @@ print(f'Самый популярный фрукт: {most_populer_fruit}')
 count_fruit = np.array(data['Количество'])
 price_fruits = np.array(data['Цена'])
 
-plt.scatter([1,2,3], [4,5,6])
+plt.scatter(count_fruit, price_fruits)
 plt.show()
 
